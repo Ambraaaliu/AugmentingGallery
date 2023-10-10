@@ -1,0 +1,151 @@
+/* 
+*{
+    padding:0%;
+    margin: 0;
+} */
+
+
+#canvasContainer1 {
+    position: absolute;
+    background-size:cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    z-index: -1;
+    position: fixed;
+  }
+
+
+.container {
+    position: relative;
+    overflow: hidden;
+}
+main {
+    max-width: 600px;
+    margin: 30px auto 0;
+    padding: 20px;
+  }
+  
+.image {
+    position: absolute;
+    /* top: 0; */
+    transition: transform 1s ease;
+}
+
+#left-image {
+    left: 4%;
+    top: 5ch;
+    width: 30%;
+    height: auto;
+}
+#center-image {
+    left: 40%;
+    top: 5ch;
+    width: 30%;
+    height: auto;
+}
+
+#right-image {
+    left:75%;
+    width: 20%;
+    top: 15ch;
+}
+
+.videoWords {
+    position: relative;
+    top: 85ch;
+    left: -70%;
+}
+.video{
+    position: relative;
+    top: 50ch;
+    right: -30%;
+}
+a{
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 80px;
+}
+
+.introduction{
+    background-color: rgb(247, 244, 233);
+    top: 55ch;
+    width: 120%;
+    left: -60%;
+    position: relative;
+}
+h5{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+}
+
+.Introtitle{
+    position: relative;
+    top: 10ch;
+    right: -60%;
+}
+.guqinDetails1{
+    position: relative;
+    top: 30ch;
+}
+#first-pic{
+    left: -70%;
+}
+#second-pic{
+    left: 12%;
+}
+.BGM{
+    position: fixed;
+    right: 0%;
+
+}
+#third-pic{
+    right: -70%;
+}
+.guqinDetailsWords{
+    position: relative;
+    top: 120ch;
+    text-align: center;
+}
+p{
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 50px;
+}
+#forth-pic{
+    left: -70%;
+}
+.guqinDetails2{
+    position: relative;
+    top: 125ch;
+}
+#fifth-pic{
+    left: 12%;
+}
+#sixth-pic{
+    right: -70%;
+}
+.guqinFingering{
+    position: relative;
+    top: 230ch;
+}
+#finger1{
+    left:-50%;
+}
+#finger2{
+    right:-50%;
+}
+.guqinFingeringWords{
+    position: relative;
+    top: 260ch;
+    text-align: center;
+}
+h6{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 65px;  
+}
+h7{
+    font-family: 'Liu Jian Mao Cao', cursive;
+    font-size: 80px;  
+}
+
